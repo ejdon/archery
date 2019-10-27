@@ -3,48 +3,62 @@
   <head>
     <meta charset="utf-8">
     <title>About Straight to the Point Archery</title>
+    <link rel="stylesheet" type="text/css" href="stylesheet/stylesheet.css">
   </head>
   <body>
     <header>
-      <h1>Straight to the Point Archery</h1>
+      <h1 class="header-title">Straight to the Point Archery</h1>
+      <div class="header-info">
+      <img src="images/archeryAcademy-logo-white.png" id="logo" height="60px" width="160px" alt="'Archery Academy' logo in white with a small, drawn target">
       <address>
         <p>528 Nock Point Ln</p>
         <p>Tacoma, WA 98412</p>
       </address>
       <p>archery-education@example.com</p>
       <p>253-555-1010</p>
+    </div>
     </header>
-    <nav>
+    <nav class="global-navigation">
       <a href="index.html">Home</a>
       <a href="about.html">About</a>
     </nav>
     <main>
       <section>
-        <h2>About:</h2>
-        <p>Straight to the Point Archery is a non profit archery education center founded in 2005 by Giap Nguyen.  Our state of the art educational and training facility incorporates detailed technical video analysis combined with generations of archery experience from certified coaches and instructors.
-        <p>Straight to the Point Archery is an indoor training facility with  28 shooting (14 -  10 yard lanes and 14 – 20 yard lanes) and 2 private coaching rooms. We also have access to 26  additional  20 yard lanes  and an outdoor shooting field.  We offer several types of lessons to accommodate everyone from the first time archer to the professional archer. Once set up with proper fitting equipment, each archer will be given the basic safety instruction to start and will be introduced to various shooting techniques.</p>
-        <p>From Beginner to Elite, archers of all ages and ability learn about this exciting Olympic and international sport. Sign up for a group lesson, private class, schedule a birthday or corporate party or compete at one of our many tournaments.  Straight to the Point Archery also offers homeschooling programs, kids club events, YMCA classes, Boy and Girl Scouts achievement programs and several other youth group activities. We are dedicated to teaching valuable life skills to the youth in our community through the wonderful discipline of archery.</p>
-        <p>Straight to the Point Archery has instructors that are qualified level 1 and level 2 instructors and have met the safety requirements of the USA Archery (USAA). We teach in a positive learning environment.  Our instructors also have extensive knowledge of the most advanced archery equipment and all forms of archery from the traditional long bow to the modern compound.  Straight to the Point Archery also has specific instructors for recreational archery, competitive archery and bow hunting.</p>
+        <h2 id="about-title">About:</h2>
+        <div id="about">
+        <p>Straight to the Point Archery is a non profit archery education center founded in 2005 by Giap Nguyen.  Our state of the art educational and training facility incorporates detailed technical video analysis combined with generations of archery experience from certified coaches and instructors.</p><br>
+        <p>Straight to the Point Archery is an indoor training facility with  28 shooting (14 -  10 yard lanes and 14 – 20 yard lanes) and 2 private coaching rooms. We also have access to 26  additional  20 yard lanes  and an outdoor shooting field.  We offer several types of lessons to accommodate everyone from the first time archer to the professional archer. Once set up with proper fitting equipment, each archer will be given the basic safety instruction to start and will be introduced to various shooting techniques.</p><br>
+        <p>From Beginner to Elite, archers of all ages and ability learn about this exciting Olympic and international sport. Sign up for a group lesson, private class, schedule a birthday or corporate party or compete at one of our many tournaments.  Straight to the Point Archery also offers homeschooling programs, kids club events, YMCA classes, Boy and Girl Scouts achievement programs and several other youth group activities. We are dedicated to teaching valuable life skills to the youth in our community through the wonderful discipline of archery.</p><br>
+        <p>Straight to the Point Archery has instructors that are qualified level 1 and level 2 instructors and have met the safety requirements of the USA Archery (USAA). We teach in a positive learning environment.  Our instructors also have extensive knowledge of the most advanced archery equipment and all forms of archery from the traditional long bow to the modern compound.  Straight to the Point Archery also has specific instructors for recreational archery, competitive archery and bow hunting.</p><br>
         <p>Straight to the Point Archery has an excellent network of contacts with the USA Archery (USAA), Washington State Archery Association (WSAA), Washington State Bow Hunters (WSB), National Field Archery Association (NFAA) and many more national and state archery associations. These partnerships allow you to feel confident in our facility and staff.</p>
-        <p>Straight to the Point Archery’s staff has decades of experience in the archery industry. We are committed to educating you with any questions that you may have.</p>
+        <p>Straight to the Point Archery’s staff has decades of experience in the archery industry. We are committed to educating you with any questions that you may have.</p><br>
+      </div>
+
       </section>
       <section>
-        <h2>Instructors:</h2>
-        <h3>Derek Jenkins</h3>
+      <h2 id="instructors">Instructors:</h2>
+      <div class="about-container">
+        <div class="grid-1-about">
+          <h3 class="instructor-title">Derek Jenkins</h3>
         <figure>
-          <img src="images/instructor-bio-image1.png" alt="A closeup picture of a man from the shoulders up; he is smiling at the camera and has brown hair">
-          <figcaption>Derek is a Washington native and an experienced outdoorsman with many years hunting, fishing, skiing, canoeing, archery, shooting and minimalistic camping. His skillful mastery of bushcraft and wilderness survival knowledge helps define his character. He enjoys handcrafting his own long bows, flint knapped primitive arrows and making custom leather products.</figcaption>
+          <img src="images/instructor-bio-image1.png" class="instructor-image" height="160px" width="160px" alt="A closeup picture of a man from the shoulders up; he is smiling at the camera and has brown hair">
         </figure>
-        <h3>Amy Smith</h3>
+        <p class="instructor-description">Derek is a Washington native and an experienced outdoorsman with many years hunting, fishing, skiing, canoeing, archery, shooting and minimalistic camping. His skillful mastery of bushcraft and wilderness survival knowledge helps define his character. He enjoys handcrafting his own long bows, flint knapped primitive arrows and making custom leather products.</p>
+      </div>
+      <div class="grid-2-about">
+        <h3 class="instructor-title">Amy Smith</h3>
         <figure>
-          <img src="images/instructor-bio-image2.png" alt="A closeup picture of a woman from the shoulders up; she is smiling at the camera and has on glasses">
-          <figcaption>Amy truly has a passion for archery. She comes from a long line of hunters, fisherman, and trappers of Canada. Amy  places a strong emphasis on safety and is enthusiastic about teaching. Amy also loves fitness, and  has been a YMCA group exercise and personal trainer for over 18 years.</figcaption>
+          <img src="images/instructor-bio-image2.png" class="instructor-image" height="160px" width="160px" alt="A closeup picture of a woman from the shoulders up; she is smiling at the camera and has on glasses">
         </figure>
-        <h3>Nathan Lee</h3>
+        <p class="instructor-description">Amy truly has a passion for archery. She comes from a long line of hunters, fisherman, and trappers of Canada. Amy  places a strong emphasis on safety and is enthusiastic about teaching. Amy also loves fitness, and  has been a YMCA group exercise and personal trainer for over 18 years.</p>
+      </div>
+      <div class="grid-3-about">
+        <h3 class="instructor-title">Nathan Lee</h3>
         <figure>
-          <img src="images/instructor-bio-image3.png" alt="A closeup picture of a man from the shoulders up; he is smiling at the camera and is in a button up shirt">
-          <figcaption>Nathan is an USA Archery Certified Level 3 NTS – Coach and has been teaching archery since 2009. He has been interested in archery since he nocked his first arrow while a Boy Scout at Scout camp. Nathan has many years of experience teaching people of all ages, experience gained as a Martial Arts Instructor and Studio Manager.</figcaption>
+          <img src="images/instructor-bio-image3.png" class="instructor-image" height="160px" width="160px" alt="A closeup picture of a man from the shoulders up; he is smiling at the camera and is in a button up shirt">
         </figure>
+        <p class="instructor-description">Nathan is an USA Archery Certified Level 3 NTS – Coach and has been teaching archery since 2009. He has been interested in archery since he nocked his first arrow while a Boy Scout at Scout camp. Nathan has many years of experience teaching people of all ages, experience gained as a Martial Arts Instructor and Studio Manager.</p>
+      </div>
       </section>
     </main>
     <footer>
