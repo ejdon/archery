@@ -1,10 +1,8 @@
 * {
-  box-sizing: border-box;
   display: grid;
   margin: 0;
-  float: left;
-  overflow: auto;
 }
+
 header {
   background-color: #1b4471;
 }
@@ -20,27 +18,35 @@ h2 {
   font-size: 24px;
   color: #444444;
 }
+
 h3 {
   font-family: "Arial Bold", sans-serif;
   font-size: 17px;
   color: #444444;
 }
- h4 {
-   font-family: "Arial Regular", sans-serif;
-   font-size: 17px;
-   color: #444444;
- }
+
+h4 {
+  font-family: "Arial Regular", sans-serif;
+  font-size: 17px;
+  color: #444444;
+}
+
+p {
+  font-family: "Arial Regular", sans-serif;
+}
 
 #logo {
   padding: 0% 0% 3% 0%;
+  width: 60%;
 }
 
 .header-title {
-   width: 40%;
-   float: left;
-   overflow: auto;
-   padding: 7% 5% 7% 15%
- }
+  width: 40%;
+  float: left;
+  overflow: auto;
+  padding: 7% 5% 7% 15%
+}
+
 .header-info {
   color: #ffffff;
   font-weight: bold;
@@ -50,9 +56,9 @@ h3 {
   overflow: auto;
   padding: 4% 5% 5% 68%
 }
+
 .global-navigation {
   display: flex;
-  flex-grow: 3;
   background: #ecb722;
   border-bottom: 5px solid #03a3df;
   word-spacing: 30px;
@@ -60,12 +66,12 @@ h3 {
 }
 
 #services {
-text-align: center;
-border: 2px solid black;
-background-color: #EBEBEB;
-margin: 20px 20px 20px 20px;
-padding: 3% 0% 3% 0%;
-text-decoration: underline;
+  text-align: center;
+  border: 2px solid black;
+  background-color: #EBEBEB;
+  margin: 20px 20px 20px 20px;
+  padding: 3% 0% 3% 0%;
+  text-decoration: underline;
 }
 
 #classes {
@@ -76,60 +82,50 @@ text-decoration: underline;
   padding: 2% 0% 2% 0%;
 }
 
-}
 .containter {
   display: grid;
   grid-gap: 20px 30px;
-
 }
 .about-containter {
   display: grid;
   grid-gap: 20px 30px;
-
 }
 .grid-1 {
-      grid-column-start: 1;
-       grid-column-end: 2;
-       text-align: center;
-       margin-left: 10px;
+  grid-column-start: 1;
+  grid-column-end: 2;
+  text-align: center;
+  margin-left: 10px;
 }
-
 .grid-2 {
-        grid-column: 2 / 3;
-         grid-row: 1/1;
-         text-align: center;
+  grid-column: 2 / 3;
+  grid-row: 1/1;
+  text-align: center;
 }
-
 .grid-3 {
   grid-column: 3 / 3;
-   grid-row: 1/1;
-   text-align: center;
-   margin-right: 10px;
+  grid-row: 1/1;
+  text-align: center;
+  margin-right: 10px;
 }
-
 .class-title {
   text-decoration: underline;
 }
-
 #private-lessons-header {
-    text-align: center;
-    border: 5px solid #03a3df;
-    background-color: #ecb722;
-    margin: 2% 5% 2% 5%;
-    padding: 2% 0% 2% 0%;
-  }
-
+  text-align: center;
+  border: 5px solid #03a3df;
+  background-color: #ecb722;
+  margin: 2% 5% 2% 5%;
+  padding: 2% 0% 2% 0%;
+}
 .private-lessons {
   text-align: center;
 }
-
 .single {
   margin: 1% 20% 1% 20%;
   border: 1px solid black;
   padding: 1% 0% 1% 0%;
   background-color: #03a3df;
 }
-
 .three-lessons {
   margin: 1% 20% 1% 20%;
   border: 1px solid black;
@@ -137,12 +133,11 @@ text-decoration: underline;
   background-color: #03a3df;
 }
 .ten-lessons {
-    margin: 1% 20% 1% 20%;
-    border: 1px solid black;
-    padding: 1% 0% 1% 0%;
-    background-color: #03a3df;
+  margin: 1% 20% 1% 20%;
+  border: 1px solid black;
+  padding: 1% 0% 1% 0%;
+  background-color: #03a3df;
 }
-
 .footer-image {
   background-image: url(archery/images/footerImage.jpg);
 }
@@ -151,7 +146,6 @@ text-decoration: underline;
   font-size: 14px;
   color: #03a3df;
 }
-
 #about-title {
   text-align: center;
   border: 2px solid black;
@@ -159,55 +153,56 @@ text-decoration: underline;
   margin: 20px 20px 20px 20px;
   padding: 3% 0% 3% 0%;
   text-decoration: underline;
-  }
-
+}
 #about {
   font-size: 17px;
   color: #000000;
   margin-left: 20px;
   margin-right: 20px;
 }
-
 #instructors {
   text-align: center;
   border: 5px solid #03a3df;
   background-color: #ecb722;
   margin: 2% 5% 2% 5%;
-  padding: 2% 0% 2% 0%;}
-
+  padding: 2% 0% 2% 0%;
+}
 .instructor-title {
-  color: #ffffff;
-  padding-top: 10px;
-  text-align: center;
+  color: #03a3df;
+  padding: 20px 0px 10px 0px;
+}
+.certification {
+  font-size: 8px;
+  font-weight: bold;
 }
 
 .instructor-image {
-clear: both;
+  width: 40%;
 }
-
+.instructor-description {
+  padding-top: 10px;
+}
 .grid-1-about {
-      grid-column-start: 1;
-       grid-column-end: 2;
-       padding: 10px 10px 10px 10px;
-       margin: 10px 10px 10px 10px;
-       color: #ffffff;
-       background-color: #1b4471;
-
-          }
+  grid-column-start: 1;
+  grid-column-end: 2;
+  padding: 10px 10px 10px 10px;
+  margin: 10px 10px 10px 10px;
+  color: #03a3df;
+  border-top: 10px solid #03a3df;
+}
 .grid-2-about {
-        grid-column: 2 / 3;
-         grid-row: 1/1;
-         padding: 10px 10px 10px 10px;
-         margin: 10px 10px 10px 10px;
-         color: #ffffff;
-         background-color: #1b4471;
+  grid-column: 2 / 3;
+  grid-row: 1/1;
+  padding: 10px 10px 10px 10px;
+  margin: 10px 10px 10px 10px;
+  color: #03a3df;
+  border-top: 10px solid #03a3df;
 }
 .grid-3-about {
   grid-column: 3 / 3;
-   grid-row: 1/1;
-   padding: 10px 10px 10px 10px;
-   margin: 10px 10px 10px 10px;
-   color: #ffffff;
-   background-color: #1b4471;
-
- }
+  grid-row: 1/1;
+  padding: 10px 10px 10px 10px;
+  margin: 10px 10px 10px 10px;
+  color: #03a3df;
+  border-top: 10px solid #03a3df;
+}
