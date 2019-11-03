@@ -35,6 +35,15 @@ p {
   font-family: "Arial Regular", sans-serif;
 }
 
+#video {
+  padding-left: 25%;
+  padding-top: 1%;
+}
+
+#video-title {
+  text-align: center;
+}
+
 #logo {
   padding: 0% 0% 3% 0%;
   width: 60%;
@@ -59,10 +68,19 @@ p {
 
 .global-navigation {
   display: flex;
+  justify-content: flex-start;
+  font-weight: bold;
   background: #ecb722;
   border-bottom: 5px solid #03a3df;
-  word-spacing: 30px;
-  padding: 1% 1% 1% 15%;
+  padding: 1% 0% 1% 0%;
+}
+
+.nav-link {
+  padding-left: 10%;
+}
+
+.nav-link-2 {
+  padding-left: 5%;
 }
 
 #services {
@@ -86,30 +104,36 @@ p {
   display: grid;
   grid-gap: 20px 30px;
 }
+
 .about-containter {
   display: grid;
   grid-gap: 20px 30px;
 }
+
 .grid-1 {
   grid-column-start: 1;
   grid-column-end: 2;
   text-align: center;
   margin-left: 10px;
 }
+
 .grid-2 {
   grid-column: 2 / 3;
   grid-row: 1/1;
   text-align: center;
 }
+
 .grid-3 {
   grid-column: 3 / 3;
   grid-row: 1/1;
   text-align: center;
   margin-right: 10px;
 }
+
 .class-title {
   text-decoration: underline;
 }
+
 #private-lessons-header {
   text-align: center;
   border: 5px solid #03a3df;
@@ -117,35 +141,32 @@ p {
   margin: 2% 5% 2% 5%;
   padding: 2% 0% 2% 0%;
 }
+
 .private-lessons {
   text-align: center;
 }
+
 .single {
   margin: 1% 20% 1% 20%;
   border: 1px solid black;
   padding: 1% 0% 1% 0%;
   background-color: #03a3df;
 }
+
 .three-lessons {
   margin: 1% 20% 1% 20%;
   border: 1px solid black;
   padding: 1% 0% 1% 0%;
   background-color: #03a3df;
 }
+
 .ten-lessons {
   margin: 1% 20% 1% 20%;
   border: 1px solid black;
   padding: 1% 0% 1% 0%;
   background-color: #03a3df;
 }
-.footer-image {
-  background-image: url(archery/images/footerImage.jpg);
-}
-.quote {
-  font-family: "Arial Bold", sans-serif;
-  font-size: 14px;
-  color: #03a3df;
-}
+
 #about-title {
   text-align: center;
   border: 2px solid black;
@@ -154,12 +175,14 @@ p {
   padding: 3% 0% 3% 0%;
   text-decoration: underline;
 }
+
 #about {
   font-size: 17px;
   color: #000000;
   margin-left: 20px;
   margin-right: 20px;
 }
+
 #instructors {
   text-align: center;
   border: 5px solid #03a3df;
@@ -167,10 +190,12 @@ p {
   margin: 2% 5% 2% 5%;
   padding: 2% 0% 2% 0%;
 }
+
 .instructor-title {
   color: #03a3df;
   padding: 20px 0px 10px 0px;
 }
+
 .certification {
   font-size: 8px;
   font-weight: bold;
@@ -179,9 +204,11 @@ p {
 .instructor-image {
   width: 40%;
 }
+
 .instructor-description {
   padding-top: 10px;
 }
+
 .grid-1-about {
   grid-column-start: 1;
   grid-column-end: 2;
@@ -190,6 +217,7 @@ p {
   color: #03a3df;
   border-top: 10px solid #03a3df;
 }
+
 .grid-2-about {
   grid-column: 2 / 3;
   grid-row: 1/1;
@@ -198,6 +226,7 @@ p {
   color: #03a3df;
   border-top: 10px solid #03a3df;
 }
+
 .grid-3-about {
   grid-column: 3 / 3;
   grid-row: 1/1;
@@ -205,4 +234,32 @@ p {
   margin: 10px 10px 10px 10px;
   color: #03a3df;
   border-top: 10px solid #03a3df;
+}
+
+.footer-nav {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  width: 100%;
+  height: 20em;
+  background-image: url(../images/footerImage.jpg);
+  background-size: 100% 100%;
+}
+
+#footer-logo {
+  width: 15%;
+  padding: 5% 0% 0% 45%;
+}
+
+.footer-link {
+  justify-content: center;
+  font-size: 20px;
+  color: white;
+  font-weight: bold;
+}
+
+.disclaimer {
+  color: white;
+  justify-content: flex-end;
+  padding: 0% 3% 0% 3%;
 }
