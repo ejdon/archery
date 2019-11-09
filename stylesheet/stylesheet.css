@@ -33,7 +33,6 @@ h4 {
 
 p {
   font-family: "Arial Regular", sans-serif;
-  color: #1b447f;
 
 }
 
@@ -60,7 +59,7 @@ p {
 .header-info {
   grid-column: 2;
   grid-row: 1;
-  color: #ffffff;
+  color: white;
   font-weight: bold;
   line-height: 25px;
   margin: 40px auto;
@@ -110,7 +109,6 @@ p {
 }
 
 .class-title {
-  color: #1b447f;
   text-decoration: underline;
 }
 
